@@ -1,0 +1,28 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="Task 11.css">
+    <title>Fitness Tracker</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Fitness Tracker</h1>
+        <div class="tracker">
+            <div class="counter" id="stepsCounter">
+                <h2>Steps</h2>
+                <p id="steps">0</p>
+            </div>
+            <div class="counter" id="caloriesCounter">
+                <h2>Calories Burned</h2>
+                <p id="calories">0</p>
+            </div>
+        </div>
+        <button onclick="recordSteps()">Record Steps</button>
+        <button onclick="calculateCalories()">Calculate Calories</button>
+        <button onclick="resetTracker()">Reset Tracker</button>
+    </div>
+
+    <script src="Task 11.js"></script>
+</body>
+</html>
